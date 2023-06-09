@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="343dp"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginBottom="8dp"
+    app:cardCornerRadius="10dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#48FFE5B4">
+
+        <ImageView
+            android:id="@+id/shop_image"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="295dp"
+            android:layout_marginBottom="20dp"
+            android:contentDescription="@string/display_item_image"
+            android:src="@drawable/kibble"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/shop_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="30dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="@string/kibble"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="@+id/shop_image"
+            app:layout_constraintEnd_toStartOf="@+id/shop_buy"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/shop_image"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/shop_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="25dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="@string/meow_10"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/shop_name"
+            app:layout_constraintStart_toStartOf="@+id/shop_name"
+            app:layout_constraintTop_toBottomOf="@+id/shop_name"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/shop_numberBought"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="@string/_8"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/shop_name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/shop_buy"
+            app:layout_constraintTop_toTopOf="@+id/shop_name"
+            app:layout_constraintVertical_bias="0.363" />
+
+        <TextView
+            android:id="@+id/shop_meowpersec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="@string/_1_s"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="@+id/shop_buy"
+            app:layout_constraintEnd_toEndOf="@+id/shop_numberBought"
+            app:layout_constraintStart_toStartOf="@+id/shop_numberBought"
+            app:layout_constraintTop_toTopOf="@+id/shop_buy"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/shop_meowpertap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="@string/_0_tap"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="@+id/shop_price"
+            app:layout_constraintEnd_toEndOf="@+id/shop_meowpersec"
+            app:layout_constraintStart_toStartOf="@+id/shop_meowpersec"
+            app:layout_constraintTop_toTopOf="@+id/shop_price" />
+
+        <ImageButton
+            android:id="@+id/shop_buy"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="110dp"
+            android:background="@null"
+            android:contentDescription="@string/buy_item"
+            android:scaleType="fitStart"
+            app:layout_constraintBottom_toBottomOf="@+id/shop_image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/shop_image"
+            app:layout_constraintTop_toTopOf="@+id/shop_image"
+            app:srcCompat="@drawable/plus_icon"
+            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Meow Tapper</string>
+    <string name="meows">0 Meows</string>
+    <string name="generate_meows">Generate Meows</string>
+    <string name="redirect_to_shop_page">Redirect to Shop Page</string>
+    <string name="redirect_to_setting_page">Redirect to Setting Page</string>
+    <string name="redirect_to_stat_page">Redirect to Stat Page</string>
+    <string name="redirect_to_achievement_page">Redirect to Achievement Page</string>
+    <string name="redirect_to_clicker_page">Redirect to Clicker Page</string>
+    <string name="increase_mps">Increase MPS</string>
+    <string name="meowPerSec">0 per sec.</string>
+    <string name="background">Background</string>
+    <string name="setting_background">Setting Background</string>
+    <string name="sound_effect">Sound Effect</string>
+    <string name="save_current_progress">Save Current Progress</string>
+    <string name="reset_current_progress">Reset Current Progress</string>
+    <string name="display_item_image">Display Item Image</string>
+    <string name="kibble">Kibble</string>
+    <string name="meow_10">Meow: 10</string>
+    <string name="_1_s">+1/s</string>
+    <string name="buy_item">Buy Item</string>
+    <string name="_8">8</string>
+    <string name="stat_title">Stat Title</string>
+
+    <string name="update_meows">%1$.0f Meows</string>
+    <string name="update_mps">%1$.0f per sec.</string>
+    <string name="item_meow_per_sec">+%1$.0f/s</string>
+    <string name="tapped_50_times">Tapped 50 times!</string>
+    <string name="left_image_of_achievement">Left Image of Achievement</string>
+    <string name="right_image_of_achievement">Right Image of Achievement</string>
+    <string name="_0_tap">+0/tap</string>
+    <string name="_0_per_tap">0 per tap</string>
+    <string name="warning">Warning!</string>
+    <string name="warning_icon">Warning Icon</string>
+    <string name="you_will_reset">You will reset all your progress and start anew. Do you wish to continue?</string>
+    <string name="confirm_reset_progress">Confirm Reset Progress</string>
+    <string name="cancel_reset">Cancel Reset</string>
+    <string name="wait">Wait!</string>
+    <string name="are_you_sure_leave">Are you sure you want to leave? Meowser will miss you..</string>
+    <string name="confirm_exit_progress">Confirm Exit</string>
+    <string name="cancel_exit">Cancel exit</string>
+
+
+</resources>

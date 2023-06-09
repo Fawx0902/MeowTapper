@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Fawx/AndroidStudioProjects/MeowTapper/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2255" />
+        <entry key="..\:/Users/Fawx/AndroidStudioProjects/MeowTapper/app/src/main/res/drawable/button_pill_format.xml" value="0.2255" />
+        <entry key="..\:/Users/Fawx/AndroidStudioProjects/MeowTapper/app/src/main/res/drawable/custom_achievement_button.xml" value="0.2255" />
+        <entry key="..\:/Users/Fawx/AndroidStudioProjects/MeowTapper/app/src/main/res/drawable/custom_setting_button.xml" value="0.2255" />
+        <entry key="..\:/Users/Fawx/AndroidStudioProjects/MeowTapper/app/src/main/res/drawable/custom_shop_button.xml" value="0.2255" />
+        <entry key="..\:/Users/Fawx/AndroidStudioProjects/MeowTapper/app/src/main/res/drawable/custom_stat_button.xml" value="0.2255" />
+        <entry key="..\:/Users/Fawx/AndroidStudioProjects/MeowTapper/app/src/main/res/drawable/focusable_button.xml" value="0.2255" />
+        <entry key="..\:/Users/Fawx/AndroidStudioProjects/MeowTapper/app/src/main/res/drawable/testing.xml" value="0.2255" />
+        <entry key="..\:/Users/Fawx/AndroidStudioProjects/MeowTapper/app/src/main/res/layout/activity_achievement.xml" value="0.4" />
+        <entry key="..\:/Users/Fawx/AndroidStudioProjects/MeowTapper/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/Fawx/AndroidStudioProjects/MeowTapper/app/src/main/res/layout/activity_setting.xml" value="0.264" />
+        <entry key="..\:/Users/Fawx/AndroidStudioProjects/MeowTapper/app/src/main/res/layout/activity_shop.xml" value="0.264" />
+        <entry key="..\:/Users/Fawx/AndroidStudioProjects/MeowTapper/app/src/main/res/layout/activity_stat.xml" value="0.264" />
+        <entry key="..\:/Users/Fawx/AndroidStudioProjects/MeowTapper/app/src/main/res/layout/activity_stats.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/Fawx/AndroidStudioProjects/MeowTapper/app/src/main/res/layout/blahblah.xml" value="0.264" />
+        <entry key="..\:/Users/Fawx/AndroidStudioProjects/MeowTapper/app/src/main/res/layout/custom_dialog.xml" value="0.4" />
+        <entry key="..\:/Users/Fawx/AndroidStudioProjects/MeowTapper/app/src/main/res/layout/custom_exit_dialog.xml" value="0.264" />
+        <entry key="..\:/Users/Fawx/AndroidStudioProjects/MeowTapper/app/src/main/res/layout/custom_reset_dialog.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/Fawx/AndroidStudioProjects/MeowTapper/app/src/main/res/layout/list_achievement.xml" value="0.4" />
+        <entry key="..\:/Users/Fawx/AndroidStudioProjects/MeowTapper/app/src/main/res/layout/list_item_shop.xml" value="0.4" />
+        <entry key="..\:/Users/Fawx/AndroidStudioProjects/MeowTapper/app/src/main/res/layout/list_stat.xml" value="0.21240942028985507" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

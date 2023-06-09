@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/game_bg"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/displayMeow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/meows"
+        android:textColor="#020202"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/displayMPS"
+        app:layout_constraintEnd_toEndOf="@+id/catTapper"
+        app:layout_constraintStart_toStartOf="@+id/catTapper"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/displayMPS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="48dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/meowPerSec"
+        android:textColor="#020202"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/catTapper"
+        app:layout_constraintEnd_toEndOf="@+id/catTapper"
+        app:layout_constraintStart_toStartOf="@+id/catTapper"
+        app:layout_constraintTop_toBottomOf="@+id/displayMeow" />
+
+    <ImageButton
+        android:id="@+id/catTapper"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="@null"
+        android:contentDescription="@string/generate_meows"
+        android:scaleType="fitStart"
+        android:soundEffectsEnabled="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/displayMPS"
+        app:srcCompat="@drawable/cat_tapper" />
+
+    <ImageButton
+        android:id="@+id/achievementButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="1dp"
+        android:background="@drawable/custom_achievement_button"
+        android:contentDescription="@string/redirect_to_achievement_page"
+        android:scaleType="fitStart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/statButton"
+        app:layout_constraintStart_toEndOf="@+id/shopButton"
+        app:layout_constraintTop_toBottomOf="@+id/catTapper"
+        app:layout_constraintVertical_bias="1.0"
+        android:soundEffectsEnabled="false"/>
+
+    <ImageButton
+        android:id="@+id/shopButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="1dp"
+        android:background="@drawable/custom_shop_button"
+        android:contentDescription="@string/redirect_to_shop_page"
+        android:enabled="false"
+        android:scaleType="fitStart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/achievementButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/catTapper"
+        app:layout_constraintVertical_bias="1.0"
+        android:soundEffectsEnabled="false"/>
+
+    <ImageButton
+        android:id="@+id/statButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="1dp"
+        android:background="@drawable/custom_stat_button"
+        android:contentDescription="@string/redirect_to_stat_page"
+        android:scaleType="fitStart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/settingButton"
+        app:layout_constraintStart_toEndOf="@+id/achievementButton"
+        app:layout_constraintTop_toBottomOf="@+id/catTapper"
+        app:layout_constraintVertical_bias="1.0"
+        android:soundEffectsEnabled="false"/>
+
+    <ImageButton
+        android:id="@+id/settingButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/custom_setting_button"
+        android:contentDescription="@string/redirect_to_setting_page"
+        android:scaleType="fitStart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/statButton"
+        app:layout_constraintTop_toBottomOf="@+id/catTapper"
+        app:layout_constraintVertical_bias="1.0"
+        android:soundEffectsEnabled="false"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
