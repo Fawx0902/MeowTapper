@@ -4,6 +4,7 @@ This game has a working Shop and Achievement System. The user can also view thei
 
 Assets used to create this game is not owned by me. All rights reserved to the following:
 > Mino Games; Cat Game - The Cats Collector! - Audio, Background, Images
+
 > Irina Mir - Yin and Yang Cat Image (Tapper Image)
 
 Layout is based on Android Studio's emulator Pixel 3 XL, UI will be at incorrect places if installed at other emulator/phones.
